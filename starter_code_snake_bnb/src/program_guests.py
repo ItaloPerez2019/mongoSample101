@@ -1,6 +1,8 @@
 from infrastructure.switchlang import switch
 import program_hosts as hosts
 import infrastructure.state as state
+import services.data_service as svc
+
 
 
 def run():

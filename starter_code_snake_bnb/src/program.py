@@ -5,7 +5,6 @@ import data.mongo_setup as mongo_setup
 
 
 def main():
-    # TODO: Setup mongoengine global values
     mongo_setup.global_init()
 
     print_header()

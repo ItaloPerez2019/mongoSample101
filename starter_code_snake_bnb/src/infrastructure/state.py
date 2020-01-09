@@ -1,4 +1,9 @@
-active_account = None
+from data.owners import Owner
+import services.data_service as svc
+
+
+
+active_account: Owner  = None
 
 
 def reload_account():
